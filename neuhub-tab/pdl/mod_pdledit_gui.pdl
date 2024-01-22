@@ -1,0 +1,10 @@
+[template=threecolfluid][/template]
+[region=aside]
+
+[/region]
+[region=content]
+
+$content
+[/region]
+
+[/region]
