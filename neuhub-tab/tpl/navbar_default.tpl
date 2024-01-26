@@ -45,6 +45,29 @@
                 <!-- Download SVG icon from http://tabler-icons.io/i/sun -->
                 <svg xmlns="http://www.w3.org/2000/svg" class="icon" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" /><path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7" /></svg>
               </a>
+              <div class="nav-item dropdown d-none d-md-flex">
+                <div class="dm-notifications-icon-off" style="display:none">
+                  <a href="/network/?f=&dm=1" class="nav-link px-0" tabindex="-1" aria-label="Show DM notifications">
+                    <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                      <path d="M3 7l9 6l9 -6" />
+                    </svg>
+                  </a>
+                </div>
+                <div class="dm-notifications-icon-on" style="display:none">
+                  <a href="/network/?f=&dm=1" class="nav-link px-0" tabindex="-1" aria-label="Show DM notifications">
+                    <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" stroke-width="0" fill="currentColor" />
+                      <path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" stroke-width="0" fill="currentColor" />
+                    </svg>
+                    <span class="badge bg-red"></span>
+                  </a>
+                </div>
+              </div>              
               <div class="nav-item dropdown d-none d-md-flex me-3">
                 <div class="notifications-icon-desktop-off" style="display:none">
                   <a href="/hq" class="nav-link px-0" tabindex="-1" aria-label="Show notifications">
@@ -1366,6 +1389,29 @@
 
               {{if $localuser}}
 
+              <div class="nav-item dropdown d-none d-md-flex">
+                <div class="dm-notifications-icon-off" style="display:none">
+                  <a href="/network/?f=&dm=1" class="nav-link px-0" tabindex="-1" aria-label="Show DM notifications">
+                    <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z" />
+                      <path d="M3 7l9 6l9 -6" />
+                    </svg>
+                  </a>
+                </div>
+                <div class="dm-notifications-icon-on" style="display:none">
+                  <a href="/network/?f=&dm=1" class="nav-link px-0" tabindex="-1" aria-label="Show DM notifications">
+                    <!-- Download SVG icon from http://tabler-icons.io/i/bell -->
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" stroke-width="0" fill="currentColor" />
+                      <path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" stroke-width="0" fill="currentColor" />
+                    </svg>
+                    <span class="badge bg-red"></span>
+                  </a>
+                </div>
+              </div>
               <div class="nav-item dropdown d-none d-md-flex me-3">
                 <div class="notifications-icon-desktop-off" style="display:none">
                   <a href="/hq" class="nav-link px-0" tabindex="-1" aria-label="Show notifications">
