@@ -3,6 +3,8 @@
 // ------------------------------------------
 // SECTION I: Add your custom CSS files here.
 
+head_add_css('/vendor/twbs/bootstrap-icons/font/bootstrap-icons.min.css');
+
 head_add_css('/library/fork-awesome/css/fork-awesome.min.css');
 // head_add_css('/vendor/twbs/bootstrap/dist/css/bootstrap.min.css'); // Tabler already uses Bootstrap, so this would conflict with it.
 head_add_css('/library/bootstrap-tagsinput/bootstrap-tagsinput.css');
