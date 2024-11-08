@@ -1,3 +1,15 @@
+<?php
+/**
+ *   * Name: default
+ *   * Description: Neuhub default 2-column layout
+ *   * Version: 0.1
+ *   * Author: WisTex TechSero Ltd. Co.
+ *   * Maintainer: WisTex TechSero Ltd. Co.
+ *   * ContentRegion: aside, left_aside_wrapper
+ *   * ContentRegion: content, region_2
+ *   * ContentRegion: right_aside, right_aside_wrapper
+ */
+?>
 <!doctype html>
 <!--
 * Neuhub Tab Theme for Hubzilla
@@ -36,7 +48,6 @@ if (file_exists($filename)) {
     //// echo "The file $filename does not exist";
 }
 ?>
-
 
 <html lang="en">
   <head>
@@ -247,7 +258,7 @@ if (file_exists($filename)) {
 
                 <!-- Main Site Navigation -->
                 <?php if(x($page,'nav')) echo $page['nav']; ?>
-
+        
       <div class="page-wrapper">
 
 
@@ -306,7 +317,7 @@ if (file_exists($filename)) {
               <div class="col-lg-8">
 
 
-                <?php if(x($page,'content')) echo $page['content']; ?>          
+                <div id="region_2"><?php if(x($page,'content')) echo $page['content']; ?></div>         
 
                 <!--
                 <div class="card !card-lg">
@@ -351,8 +362,8 @@ if (file_exists($filename)) {
               </div>
               <div class="col-lg-4">
 
-              <?php if(x($page,'aside')) echo $page['aside']; ?>
-              <?php if(x($page,'right_aside')) echo $page['right_aside']; ?>
+              <div id="left_aside_wrapper"><?php if(x($page,'aside')) echo $page['aside']; ?></div>
+              <div id="right_aside_wrapper"><?php if(x($page,'right_aside')) echo $page['right_aside']; ?></div>
 
 
 
@@ -551,7 +562,6 @@ if (file_exists($filename)) {
 
 
 
-     
       </div>
     </div>
     <!-- Libs JS -->
