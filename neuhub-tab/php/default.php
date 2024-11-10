@@ -419,7 +419,7 @@ if (file_exists($filename)) {
 
       <?php if (!class_exists('CustomPage') || !isset(App::$page['page_title']) || !in_array(App::$page['page_title'], CustomPage::_CUSTOM_PAGES)) { ?>
 
-        <footer class="footer footer-transparent d-print-none">
+        <footer class="footer footer-transparent d-print-none" style="z-index:-1">
           <div class="container-xl">
             <div class="row text-center align-items-center flex-row-reverse">
               <div class="col-lg-auto ms-lg-auto">
