@@ -417,8 +417,6 @@ if (file_exists($filename)) {
           </div>
         </div>
 
-      <?php if (!class_exists('CustomPage') || !isset(App::$page['page_title']) || !in_array(App::$page['page_title'], CustomPage::_CUSTOM_PAGES)) { ?>
-
         <footer class="footer footer-transparent d-print-none" style="z-index:-1">
           <div class="container-xl">
             <div class="row text-center align-items-center flex-row-reverse">
@@ -560,17 +558,8 @@ if (file_exists($filename)) {
                       </span>
                     </a>
                 </nav>
-
+                
         </footer>
-        
-      <?php } else { ?>
-
-        <footer style="padding-right: 0; padding-bottom: 0;">
-          <div style="width:100%; height:150px; padding:15px; background-color:purple; color:white; text-align:center;">This is the page footer</div>
-        </footer>
-
-      <?php } ?>
-
 
       </div>
     </div>

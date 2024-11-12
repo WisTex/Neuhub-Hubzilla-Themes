@@ -257,7 +257,7 @@ if (file_exists($filename)) {
     <div class="page">
 
                 <!-- Main Site Navigation -->
-                <?php if(x($page,'nav')) echo $page['nav']; ?>
+                <?php echo replace_macros(get_markup_template('header_custom.tpl', 'addon/custompage'), []); ?>
         
       <div class="page-wrapper">
 
@@ -417,7 +417,7 @@ if (file_exists($filename)) {
           </div>
         </div>
 
-        <?php if(x($page,'footer')) echo $page['footer']; ?>
+        <?php echo replace_macros(get_markup_template('footer_custom.tpl', 'addon/custompage'), []); ?>
 
       </div>
     </div>
