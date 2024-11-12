@@ -417,7 +417,7 @@ if (file_exists($filename)) {
           </div>
         </div>
 
-        <footer class="footer footer-transparent d-print-none" style="z-index:-1">
+        <footer class="footer footer-transparent d-print-none">
           <div class="container-xl">
             <div class="row text-center align-items-center flex-row-reverse">
               <div class="col-lg-auto ms-lg-auto">
@@ -558,7 +558,7 @@ if (file_exists($filename)) {
                       </span>
                     </a>
                 </nav>
-                
+
         </footer>
 
       </div>

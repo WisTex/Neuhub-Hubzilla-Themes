@@ -33,6 +33,7 @@ head_add_js('/library/bootstrap-tagsinput/bootstrap-tagsinput.js');
 head_add_js('/library/datetimepicker/jquery.datetimepicker.js');
 head_add_js('/library/bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js');
 head_add_js('/view/theme/redbasic/js/redbasic.js');
+head_add_js('/view/theme/neuhub-tab/js/neuhub-tab.js');
 
 // These are the Tabler UI Kit's JS files used in this theme.
 // ? For some reason it gives an error if I call it here, so I put it in default.php instead.
