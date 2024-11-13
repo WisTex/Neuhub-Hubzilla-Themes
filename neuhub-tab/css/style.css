@@ -71,3 +71,9 @@ footer {
 .hq_controls_fixed_bottom_center {
     margin-bottom: 5rem !important;
 }
+
+.dropdown-toggle::after {
+    border-bottom: 0 !important;
+    border-left: .3em solid transparent !important;
+    transform: none !important;
+}
