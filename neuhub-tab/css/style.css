@@ -77,3 +77,13 @@ footer {
     border-left: .3em solid transparent !important;
     transform: none !important;
 }
+
+#pdledit_gui_offcanvas_edit_body.offcanvas-body {
+    padding-bottom: 0;
+}
+
+input[type=text], textarea {
+	resize: vertical;
+	background-color: var(--tblr-bg-forms);
+	color: var(--tblr-body-color);;
+}
