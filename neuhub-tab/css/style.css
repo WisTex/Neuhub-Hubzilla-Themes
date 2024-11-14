@@ -85,5 +85,5 @@ footer {
 input[type=text], textarea {
 	resize: vertical;
 	background-color: var(--tblr-bg-forms);
-	color: var(--tblr-body-color);;
+	color: var(--tblr-body-color);
 }
