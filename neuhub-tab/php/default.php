@@ -251,7 +251,7 @@ if (file_exists($filename)) {
       
     </style>
   </head>
-  <body >
+  <body>
     <?php /* Moved to theme_init.php <script src="/view/theme/neuhub-tabler/dist/js/demo-theme.min.js?1685973381"></script> */ ?>
     <script src="/view/theme/neuhub-tab/dist/js/demo-theme.min.js?1685973381"></script>
     <div class="page">
