@@ -1,4 +1,4 @@
-<!-- begin default navbar template -->
+<!-- begin cutsom page navbar template -->
 
 {{* debug *}}
 

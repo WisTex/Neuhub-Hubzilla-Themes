@@ -1,4 +1,4 @@
-<!-- begin default navbar template -->
+<!-- begin topnav navbar template -->
 
 {{* debug *}}
 
