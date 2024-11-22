@@ -272,7 +272,8 @@ if (file_exists($filename)) {
     <div class="page">
 
                 <!-- Main Site Navigation -->
-                <?php echo replace_macros(get_markup_template('header_custom.tpl', 'addon/custompage'), []); ?>
+                <?php //echo replace_macros(get_markup_template('header_custom.tpl', 'addon/custompage'), []); ?>
+                <?php if(x($page,'nav')) echo $page['nav']; ?>
         
       <div class="page-wrapper">
 
