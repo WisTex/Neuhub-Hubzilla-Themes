@@ -7,6 +7,28 @@
 
 /* custom */
 
+/* Start styles used with custom page addon */
+:root, [data-bs-theme=light] {
+    --tblr-body-bg: rgb(243, 240, 247) !important;
+    --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif !important;
+    --tblr-font-weight-bold: 700 !important;
+    --tblr-primary-rgb: 137, 93, 227 !important;
+    --bs-primary: #ab8aeb !important;
+    --tblr-icon-color: #956fc5 !important;
+    --bs-link-color: #3075db !important;
+}
+
+:root, [data-bs-theme=dark] {
+    --tblr-body-bg: #151f2c;
+    --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif !important;
+    --tblr-font-weight-bold: 700 !important;
+    --tblr-primary-rgb: 107, 56, 209;
+    --bs-primary: #8155d9;
+    --tblr-icon-color: var(--tblr-gray-500);
+    --bs-link-color: #6ea8fe;
+}
+/* End styles used with custom page addon */
+
 .neuhub-placeholder {
 	/* example */
 	color:maroon;
