@@ -251,9 +251,24 @@ if (file_exists($filename)) {
       
     </style>
   </head>
-  <body >
+  <body>
     <?php /* Moved to theme_init.php <script src="/view/theme/neuhub-tabler/dist/js/demo-theme.min.js?1685973381"></script> */ ?>
     <script src="/view/theme/neuhub-tab/dist/js/demo-theme.min.js?1685973381"></script>
+    <!-- Disable Dark Mode for Custom Pages -->
+    <script>
+      (function() {
+        let timer;
+        const disableDarkMode = function() {
+          if ($("body").attr("data-bs-theme") == "dark") {
+              $("body").attr("data-bs-theme", "light");
+              clearTimeout(timer);
+          } else {
+              timer = setTimeout(disableDarkMode, 1);
+          }
+        };
+        disableDarkMode();
+      })(); 
+    </script>
     <div class="page">
 
                 <!-- Main Site Navigation -->
