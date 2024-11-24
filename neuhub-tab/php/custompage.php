@@ -1,3 +1,13 @@
+<?php
+/**
+ *   * Name: custompage
+ *   * Description: Neuhub default 1-column layout
+ *   * Version: 0.1
+ *   * Author: WisTex TechSero Ltd. Co.
+ *   * Maintainer: WisTex TechSero Ltd. Co.
+ *   * ContentRegion: content, region_2
+ */
+?>
 <!doctype html>
 <!--
 * Neuhub Tab Theme for Hubzilla
@@ -108,7 +118,7 @@ if (file_exists($filename)) {
     // ! Assumes you have uploaded both the main CSS and the CSS for the sections.
     $filename = '/custom/css/codestitch.css';
     if (file_exists($filename)) { ?>
-        <!-- <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/> ==>
+        <!-- <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/> -->
         <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
     <?php
     } else {
@@ -229,6 +239,21 @@ if (file_exists($filename)) {
   <body class="layout-fluid">
     <?php /* Moved to theme_init.php <script src="/view/theme/neuhub-tabler/dist/js/demo-theme.min.js?1685973381"></script> */ ?>
     <script src="/view/theme/neuhub-tab/dist/js/demo-theme.min.js?1685973381"></script>
+    <!-- Disable Dark Mode for Custom Pages -->
+    <script>
+      (function() {
+        let timer;
+        const disableDarkMode = function() {
+          if ($("body").attr("data-bs-theme") == "dark") {
+              $("body").attr("data-bs-theme", "light");
+              clearTimeout(timer);
+          } else {
+              timer = setTimeout(disableDarkMode, 1);
+          }
+        };
+        disableDarkMode();
+      })(); 
+    </script>
     <div class="page">
 
                 <!-- Main Site Navigation -->
@@ -281,7 +306,7 @@ if (file_exists($filename)) {
             
             <?php if(x($page,'breadcrumb')) echo $page['breadcrumb'] ?>   
             <?php if(x($page,'top_area')) echo $page['top_area']; ?>
-            <?php if(x($page,'content')) echo $page['content']; ?>  
+            <div id="region_2"><?php if(x($page,'content')) echo $page['content']; ?></div>  
 
           </div>
         </div> <!-- page body -->
