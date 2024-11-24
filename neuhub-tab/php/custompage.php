@@ -361,11 +361,13 @@ if (file_exists($filename)) {
                 background: #F1F1F1;
                 position: fixed;
                 bottom: 0;
+                left: 0;
                 height: 65px;
                 width: 100%;
                 display: flex;
                 justify-content: space-around;
                 margin-top: 165px;
+                z-index: 9999;
                 }
                 .bloc-icon {
                   display: flex;
