@@ -204,6 +204,15 @@ if (file_exists($filename)) {
             --tblr-avatar-size: 80px;
           }
 
+          @media (min-width: 768px) {
+              .d-lg-flex {
+                  display: flex !important;
+              }
+              .d-md-none {
+                display: block !important;
+              }
+          }
+
           dl, ol, ul {
             margin-top: 1rem;
             margin-bottom: 1rem;
