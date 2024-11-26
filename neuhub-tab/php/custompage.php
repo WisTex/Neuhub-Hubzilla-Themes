@@ -5,7 +5,7 @@
  *   * Version: 0.1
  *   * Author: WisTex TechSero Ltd. Co.
  *   * Maintainer: WisTex TechSero Ltd. Co.
- *   * ContentRegion: content, region_2
+ *   * ContentRegion: content, region_22
  */
 ?>
 <!doctype html>
@@ -118,8 +118,8 @@ if (file_exists($filename)) {
     // ! Assumes you have uploaded both the main CSS and the CSS for the sections.
     $filename = '/custom/css/codestitch.css';
     if (file_exists($filename)) { ?>
-        <!-- <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/> -->
-        <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/>
+        <!-- <link href="/custom/css/codestitch.css?1685973381" rel="stylesheet"/>
+        <link href="/custom/css/codestitch-sections.css?1685973381" rel="stylesheet"/> -->
     <?php
     } else {
         //// echo "The file $filename does not exist";
@@ -315,7 +315,7 @@ if (file_exists($filename)) {
             
             <?php if(x($page,'breadcrumb')) echo $page['breadcrumb'] ?>   
             <?php if(x($page,'top_area')) echo $page['top_area']; ?>
-            <div id="region_2"><?php if(x($page,'content')) echo $page['content']; ?></div>  
+            <div id="region_22"><?php if(x($page,'content')) echo $page['content']; ?></div>  
 
           </div>
         </div> <!-- page body -->
