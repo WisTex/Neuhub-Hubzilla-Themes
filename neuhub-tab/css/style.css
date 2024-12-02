@@ -109,3 +109,10 @@ input[type=text], textarea {
 	background-color: var(--tblr-bg-forms);
 	color: var(--tblr-body-color);
 }
+
+@media screen and (max-width: 431px) {
+    body {
+        padding-bottom: 3rem !important;
+        height: auto !important;
+    }
+  }
