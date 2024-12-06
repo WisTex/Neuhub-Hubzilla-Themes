@@ -153,6 +153,7 @@ if (file_exists($filename)) {
         --tblr-link-color: green; /* mostly used for toggle switches */
         --bs-link-hover-color: #0a58ca;
         --bs-warning: #f59f00;
+        /*
         --tblr-font-size-h1: 2rem;
     --tblr-font-size-h2: 1.75rem;
     --tblr-line-height-h2: 1.75rem;
@@ -164,6 +165,7 @@ if (file_exists($filename)) {
     --tblr-line-height-h5: 1rem;
     --tblr-font-size-h6: 0.75rem;
     --tblr-line-height-h6: 0.75rem;
+    */
         
       }
       body {
