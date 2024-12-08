@@ -683,13 +683,13 @@ progress {
 @media (min-width: 1200px) {
   .container-xl, .container {
     /* max-width: 1140px; */
-    max-width: 1300px;
+    max-width: 1380px;
   }
 }
 @media (min-width: 1400px) {
    .container-xl, .container {
     /* max-width: 1320px; */
-    max-width: 1500px;
+    max-width: 1440px;
   }
 }
 :root {
