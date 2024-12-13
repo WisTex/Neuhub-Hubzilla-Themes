@@ -42,9 +42,10 @@ You can also direct message Scott via Hubzilla or any ActivityPub client at scot
 
 Contributions in the form of suggestions, collaborations, pull requests, and money (of course), are appreciated.
 
-To help fund this project and other similar projects, we will eventually set up some way to contribute and/or donate directly.
+To help fund this project and other similar projects, we would appreciate a contribution:
+* https://buymeacoffee.com/federated
 
-In the meantime, if you purchase "Unbranded.Social" Hubzilla Hosting (or anything else) though this TechSero affiliate link, a portion of your purchase will be dedicated towards Federated Works and projects like this. Your patronage is appreciated.
+Also, if you purchase "Unbranded.Social" Hubzilla Hosting (or anything else) though this TechSero affiliate link, a portion of your purchase will be dedicated towards Federated Works and projects like this. Your patronage is appreciated.
 * https://techsero.net/aff.php?aff=3
 
 WisTex TechSero supports this open source project, so by supporting WisTex Techsero, you support this open source project.
